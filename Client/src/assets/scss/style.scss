@@ -1,0 +1,60 @@
+@import 'variables.scss';
+
+.primary-color{
+    color: $primary-color;
+}
+.primary-background{
+    background: $primary-color;
+}
+.secondary-color{
+    color: $primary-color;
+}
+.secondary-background{
+    background: $secondary-color;
+}
+.white-color{
+    color: white;
+}
+.white-background{
+    background: white;
+}
+
+#app{
+    padding-top: $top-menu-height;
+    
+}
+a {
+    font-size: $medium-font-size;
+    font-weight: 500;
+}
+
+.basket{
+    &-mobile {
+        @media (min-width: $min-width) {
+            display: block;
+        }
+        @media (max-width: $max-width) {
+            display: none;
+        }
+    }
+
+    &-desktop {
+        @media (min-width: $min-width) {
+            display: none;
+        }
+        @media (max-width: $max-width) {
+            display: block;
+        }
+    }
+}
+
+nav{
+    box-shadow: 0 14px 14px rgba(0,0,0,0.25);
+}
+
+.card{
+    $card-size: 300px;
+    min-width: $card-size;
+    width: $card-size;
+    max-width: $card-size;
+}

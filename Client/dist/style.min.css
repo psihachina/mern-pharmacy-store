@@ -1,0 +1,49 @@
+.primary-color {
+  color: #FF3939; }
+
+.primary-background {
+  background: #FF3939; }
+
+.secondary-color {
+  color: #FF3939; }
+
+.secondary-background {
+  background: #FFAA64; }
+
+.white-color {
+  color: white; }
+
+.white-background {
+  background: white; }
+
+#app {
+  padding-top: 86px; }
+
+a {
+  font-size: 18px;
+  font-weight: 500; }
+
+@media (min-width: 992px) {
+  .basket-mobile {
+    display: block; } }
+
+@media (max-width: 991px) {
+  .basket-mobile {
+    display: none; } }
+
+@media (min-width: 992px) {
+  .basket-desktop {
+    display: none; } }
+
+@media (max-width: 991px) {
+  .basket-desktop {
+    display: block; } }
+
+nav {
+  box-shadow: 0 14px 14px rgba(0, 0, 0, 0.25); }
+
+.card {
+  min-width: 300px;
+  width: 300px;
+  max-width: 300px; }
+

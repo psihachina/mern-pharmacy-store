@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+      "sourceMap": true,
+      "noImplicitAny": false,
+      "module": "commonjs",
+      "target": "ESNext",
+      "lib": [
+          "es2015",
+          "es2017",
+          "dom"
+      ],
+      "removeComments": true,
+      "allowSyntheticDefaultImports": false,
+      "jsx": "react",
+      "allowJs": true,
+      "baseUrl": "./Client",
+      "paths": {
+          "components/": [
+              "src/Components/"
+          ],
+      },
+  },
+  "exclude": ["node_modules", "Client/dist"],
+  "include": ["Client"]
+}
